@@ -58,7 +58,6 @@ async def start(bot, message):
     )
     await message.reply_text(
         text="👋🐸 **Hi {}!** . Send here your feedback and wait for my answer 🎠😍.\n".format(message.chat.first_name)+C.START,
-        ])
     )
 
 
